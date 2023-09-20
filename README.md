@@ -1,24 +1,24 @@
 # Haiku
- Weather Data haiku
-# A Haiku of the weather data
-# Created by Sonja Janssen-Sahebzad
+## Weather Data haiku
+## A Haiku of the weather data
+## Created by Sonja Janssen-Sahebzad
 
-# Load necessary packages
+## Load necessary packages
 library(stringr)
 library(magrittr)
 
-# Simulated weather data
+## Simulated weather data
 weather_data <- data.frame(
     date = seq(as.Date("2023-01-01"), as.Date("2023-01-07"), by = "days"),
     temperature = c(10, 12, 11, 9, 8, 7, 6),
     precipitation = c(0, 0, 2, 1, 0, 0, 3)
 )
 
-# Extract relevant weather information
+## Extract relevant weather information
 avg_temp <- mean(weather_data$temperature)
 total_precipitation <- sum(weather_data$precipitation)
 
-# Create a haiku
+## Create a haiku
 haiku <- str_wrap(
     paste(
         "Amidst winter's chill,", 
@@ -28,13 +28,13 @@ haiku <- str_wrap(
     width = 30
 )
 
-# Display the haiku with weather data
+## Display the haiku with weather data
 cat("Average Temperature:", avg_temp, "°C\n")      # # Average Temperature: 9 °C
 cat("Total Precipitation:", total_precipitation, "mm\n\n")  # # Total Precipitation: 6 mm
 cat(haiku)
 
 # outcome:
-# > cat(haiku)
-# Amidst winter's chill, Subdued
-# warmth, soft rains embrace,
-# Nature's quiet grace.
+## > cat(haiku)
+## Amidst winter's chill, Subdued
+## warmth, soft rains embrace,
+## Nature's quiet grace.
