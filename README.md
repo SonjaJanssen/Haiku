@@ -1,7 +1,7 @@
 # Haiku
 ## Weather Data haiku
-## A Haiku of the weather data
-## Created by Sonja Janssen-Sahebzad
+
+#### Created by Sonja Janssen-Sahebzad
 
 ## Load necessary packages
 library(stringr)
