@@ -33,11 +33,14 @@ cat("Average Temperature:", avg_temp, "°C\n")
 cat("Total Precipitation:", total_precipitation, "mm\n\n")  
 cat(haiku)
 
- ### Average Temperature: 9 °C
- ### Total Precipitation: 6 mm
+
  
-# outcome:
-## > cat(haiku)
-## Amidst winter's chill, Subdued
-## warmth, soft rains embrace,
-## Nature's quiet grace.
+## outcome:
+###  Average Temperature: 9 °C
+### Total Precipitation: 6 mm
+### Amidst winter's chill, Subdued
+### warmth, soft rains embrace,
+### Nature's quiet grace.
+
+
+
