@@ -29,9 +29,10 @@ haiku <- str_wrap(
 )
 
 ## Display the haiku with weather data
- cat("Average Temperature:", avg_temp, "°C\n")     
- cat("Total Precipitation:", total_precipitation, "mm\n\n")  
+cat("Average Temperature:", avg_temp, "°C\n")     
+cat("Total Precipitation:", total_precipitation, "mm\n\n")  
 cat(haiku)
+
  ### Average Temperature: 9 °C
  ### Total Precipitation: 6 mm
  
