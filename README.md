@@ -35,7 +35,7 @@ cat(haiku)
 
 
  
-## outcome:
+## Outcome:
 
 ### Amidst winter's chill, Subdued
 ### warmth, soft rains embrace,
