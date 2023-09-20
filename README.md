@@ -38,9 +38,9 @@ cat(haiku)
 ## Outcome:
 
 ### "Amidst winter's chill, Subdued
-###  warmth, soft rains embrace,
-###  Nature's quiet grace."
-###  Average Temperature: 9 °C
-### Total Precipitation: 6 mm
+###   warmth, soft rains embrace,
+###   Nature's quiet grace."
+###   Average Temperature: 9 °C
+###   Total Precipitation: 6 mm
 
 
